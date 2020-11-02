@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/title_home"/>
+        <item
+            android:id="@+id/nav_refrigerator"
+            android:icon="@drawable/ic_kitchen_black_24dp"
+            android:title="@string/title_refrigerator"/>
+        <item
+            android:id="@+id/nav_basket"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="@string/title_basket" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_today_black_24dp"
+            android:title="@string/title_calendar"/>
+        <item
+            android:id="@+id/nav_cooking"
+            android:icon="@drawable/ic_live_tv_black_24dp"
+            android:title="@string/title_cooking"/>
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_favorite_border_black_24dp"
+            android:title="@string/title_favorite"/>
+    </group>
+</menu>

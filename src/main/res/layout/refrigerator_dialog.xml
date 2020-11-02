@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="선택해주세요 :)"
+        android:background="@color/colorAccent"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/abandonmentButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="버림"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:background="#ffffff"/>
+
+        <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#000000" />
+
+        <Button
+            android:id="@+id/eatButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="먹음"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:background="#ffffff"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="수정"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:background="#ffffff"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="취소"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:background="#ffffff"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+</LinearLayout>

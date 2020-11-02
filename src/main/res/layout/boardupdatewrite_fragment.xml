@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".UI.board.BoardWriteUpdateFragment">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title  "
+            android:layout_margin="10dp"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="제목을 입력하세요."
+            android:id="@+id/boardUpdateWrite_title"/>
+
+</LinearLayout>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="350dp"
+        android:layout_margin="5dp"
+        android:hint="내용을 입력하세요."
+        android:id="@+id/boardUpdateWrite_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/board_writeUpdateButton"
+        android:text="수정"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"/>
+</LinearLayout>

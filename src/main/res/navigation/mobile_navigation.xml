@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/menu_home">
+
+    <fragment
+        android:id="@+id/menu_home"
+        android:name="com.example.lob.UI.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/menu_consumption"
+        android:name="com.example.lob.UI.consumption.ConsumptionFragment"
+        android:label="@string/title_consumption"
+        tools:layout="@layout/fragment_consumption" />
+
+    <fragment
+        android:id="@+id/menu_diet"
+        android:name="com.example.lob.UI.diet.DietFragment"
+        android:label="@string/title_diet"
+        tools:layout="@layout/fragment_diet" />
+
+    <fragment
+        android:id="@+id/menu_board"
+        android:name="com.example.lob.UI.board.BoardFragment"
+        android:label="@string/title_board"
+        tools:layout="@layout/fragment_board" />
+    <fragment
+        android:id="@+id/menu_setting"
+        android:name="com.example.lob.UI.setting.SettingFragment"
+        android:label="@string/title_setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.lob.UI.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_refrigerator"
+        android:name="com.example.lob.UI.refrigerator.RefrigeratorFragment"
+        android:label="@string/title_refrigerator"
+        tools:layout="@layout/refrigerator_fragment" />
+
+    <fragment
+        android:id="@+id/nav_basket"
+        android:name="com.example.lob.UI.basket.BasketFragment"
+        android:label="@string/title_basket"
+        tools:layout="@layout/basket_fragment" />
+
+    <fragment
+        android:id="@+id/nav_calendar"
+        android:name="com.example.lob.UI.calendar.CalendarFragment"
+        android:label="@string/title_calendar"
+        tools:layout="@layout/calendar_fragment" />
+
+    <fragment
+        android:id="@+id/nav_cooking"
+        android:name="com.example.lob.UI.cooking.CookingFragment"
+        android:label="@string/title_cooking"
+        tools:layout="@layout/cooking_fragment" />
+    <fragment
+        android:id="@+id/nav_favorite"
+        android:name="com.example.lob.UI.favorite.FavoriteFragment"
+        android:label="@string/title_favorite"
+        tools:layout="@layout/favorite_fragment" />
+    <fragment
+        android:id="@+id/nav_boardWrite"
+        android:name="com.example.lob.UI.board.BoardWriteFragment"
+        android:label="@string/title_boardWrite"
+        tools:layout="@layout/boardwrite_fragment" />
+</navigation>

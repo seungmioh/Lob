@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title=  "Home" />
+
+    <item
+        android:id="@+id/menu_consumption"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Consumption" />
+
+    <item
+        android:id="@+id/menu_diet"
+        android:icon="@drawable/ic_restaurant_menu_black_24dp"
+        android:title="Diet" />
+
+    <item
+        android:id="@+id/menu_board"
+        android:icon="@drawable/ic_content_paste_black_24dp"
+        android:title="Board" />
+    <item
+        android:id="@+id/menu_setting"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="Setting" />
+
+</menu>
